@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
 
   s.name         = "bobi_black_easy"
 
-  s.version      = "0.0.16"
+  s.version      = "0.0.17"
 
   s.summary      = "iOS bobi_black_easy"
 
@@ -21,13 +21,24 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, "10.0"
 
-  s.source       = { :git => "https://github.com/Miles-Matheson/bobi.black.oc.easy.git", :tag => "0.0.16" }
+  s.source       = { :git => "https://github.com/Miles-Matheson/bobi.black.oc.easy.git", :tag => "0.0.17" }
 
   s.requires_arc = true
 
   s.default_subspec = "Core"
 
-  s.subspec "Core" do |core|
+  s.default_subspec = 'All'
+  	s.subspec 'All' do |spec|
+    	spec.dependency 'bobi_black_easy/Addocshugenbro'
+  end
+
+  s.subspec 'Addocshugenbro' do |spec|
+    	spec.requires_arc = true
+    	spec.source_files  = "bobi_black_easy/Classes/*.{h,m}"
+  end
+
+
+  s.subspec "All" do |core|
     	core.source_files   = "bobi_black_easy/**/*.{h,m,mm,a,pch}"
     	core.resources      = "bobi_black_easy/Assets/*.xcassets"  
 	core.dependency 'Masonry'
