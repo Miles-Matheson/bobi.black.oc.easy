@@ -6,6 +6,7 @@
 //
 
 #import "WsyEmptyView.h"
+#import "BobiEasyHeader.h"
 
 @implementation WsyEmptyView
 

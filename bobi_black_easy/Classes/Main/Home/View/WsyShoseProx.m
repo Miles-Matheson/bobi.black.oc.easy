@@ -6,7 +6,7 @@
 //
 
 #import "WsyShoseProx.h"
-
+#import "BobiEasyHeader.h"
 
 @implementation wsyShoseModel
 

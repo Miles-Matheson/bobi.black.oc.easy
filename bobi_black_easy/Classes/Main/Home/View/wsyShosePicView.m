@@ -8,8 +8,7 @@
 #import "wsyShosePicView.h"
 #import "WsyShoseProx.h"
 #import "WSYBaseCollectionCell.h"
-
-
+#import "BobiEasyHeader.h"
 
 typedef void(^deleteTheShosenPic)(NSIndexPath   *indexP);
 @interface ShosePicCollectVCell : WSYBaseCollectionCell

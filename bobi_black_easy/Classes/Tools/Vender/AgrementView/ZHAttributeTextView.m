@@ -7,6 +7,7 @@
 //
 
 #import "ZHAttributeTextView.h"
+#import "BobiEasyHeader.h"
 
 @implementation ZHAttributeTextView
 - (instancetype)initWithFrame:(CGRect)frame {
