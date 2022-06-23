@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
 
   s.name         = "bobi_black_easy"
 
-  s.version      = "0.0.1"
+  s.version      = "0.0.11"
 
   s.summary      = "iOS bobi_black_easy"
 
@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, "10.0"
 
-  s.source       = { :git => "https://github.com/Miles-Matheson/bobi.black.oc.easy.git", :tag => "0.0.1" }
+  s.source       = { :git => "https://github.com/Miles-Matheson/bobi.black.oc.easy.git", :tag => "0.0.11" }
 
   s.requires_arc = true
 
