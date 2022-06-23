@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
 
   s.name         = "bobi_black_easy"
 
-  s.version      = "0.0.18"
+  s.version      = "0.0.19"
 
   s.summary      = "iOS bobi_black_easy"
 
@@ -21,17 +21,17 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, "10.0"
 
-  s.source       = { :git => "https://github.com/Miles-Matheson/bobi.black.oc.easy.git", :tag => "0.0.18" }
+  s.source       = { :git => "https://github.com/Miles-Matheson/bobi.black.oc.easy.git", :tag => "0.0.19" }
 
   s.requires_arc = true
 
   s.default_subspec = 'All'
   	s.subspec 'All' do |spec|
-  	s.subspec 'All' do |spec|
     	spec.dependency 'bobi_black_easy/Addocshugenbro'
   end
 
   s.subspec 'Addocshugenbro' do |spec|
+
     	spec.requires_arc = true
 	core.source_files   = "bobi_black_easy/**/*.{h,m,mm,a,pch}"
     	core.resources      = "bobi_black_easy/Assets/*.xcassets"  
@@ -43,9 +43,6 @@ Pod::Spec.new do |s|
   	core.dependency 'MBProgressHUD'
   	core.dependency 'CBImagePicker'
   end
-
-
-
 
 
 end
