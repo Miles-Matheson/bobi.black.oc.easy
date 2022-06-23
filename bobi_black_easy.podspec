@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
 
   s.name         = "bobi_black_easy"
 
-  s.version      = "0.0.19"
+  s.version      = "0.0.20"
 
   s.summary      = "iOS bobi_black_easy"
 
@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, "10.0"
 
-  s.source       = { :git => "https://github.com/Miles-Matheson/bobi.black.oc.easy.git", :tag => "0.0.19" }
+  s.source       = { :git => "https://github.com/Miles-Matheson/bobi.black.oc.easy.git", :tag => "0.0.20" }
 
   s.requires_arc = true
 
@@ -33,7 +33,7 @@ Pod::Spec.new do |s|
   s.subspec 'Addocshugenbro' do |spec|
 
     	spec.requires_arc = true
-	core.source_files   = "bobi_black_easy/**/*.{h,m,mm,a,pch}"
+	core.source_files   = "bobi_black_easy/Classes/**/*.{h,m,mm,a,pch}"
     	core.resources      = "bobi_black_easy/Assets/*.xcassets"  
 	core.dependency 'Masonry'
   	core.dependency 'JJException'
