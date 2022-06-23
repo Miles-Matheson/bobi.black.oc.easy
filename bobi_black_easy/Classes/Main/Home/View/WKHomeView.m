@@ -8,7 +8,7 @@
 #import "WKHomeView.h"
 #import "WKHomeTopView.h"
 #import "WKHomeBottomView.h"
-
+#import "BobiEasyHeader.h"
 @interface WKHomeView ()
 @property (nonatomic, strong) WKHomeTopView *topView;
 @property (nonatomic, strong) WKHomeBottomView *bttomView;

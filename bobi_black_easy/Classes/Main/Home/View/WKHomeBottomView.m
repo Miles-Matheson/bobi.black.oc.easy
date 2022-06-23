@@ -6,7 +6,7 @@
 //
 
 #import "WKHomeBottomView.h"
-
+#import "BobiEasyHeader.h"
 @interface WKHomeBottomView ()
 @property (nonatomic, strong) UIButton *btnLoad;
 @property (nonatomic, strong) UIButton *btnVolice;

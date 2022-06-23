@@ -6,7 +6,7 @@
 //
 
 #import "WKVoiceListCollectCell.h"
-
+#import "BobiEasyHeader.h"
 @implementation WKVoiceListCollectCell
 //@property(nonatomic,strong)UIImageView   *iconImgV;
 

@@ -6,7 +6,7 @@
 //
 
 #import "WKSignInView.h"
-
+#import "BobiEasyHeader.h"
 @interface WKSignInView ()
 @property (nonatomic, strong) UILabel *lblEmail;///E-Mail
 @property (nonatomic, strong) UITextField *textEmail;

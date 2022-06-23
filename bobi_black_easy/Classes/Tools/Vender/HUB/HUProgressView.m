@@ -7,6 +7,7 @@
 //
 
 #import "HUProgressView.h"
+#import "BobiEasyHeader.h"
 static const CFTimeInterval DURATION = 2;
 static const CGFloat WIDTH_NORMAL = 22;
 static const CGFloat HEIGHT_NORMAL = 22;

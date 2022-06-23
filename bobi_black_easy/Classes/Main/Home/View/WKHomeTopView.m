@@ -6,7 +6,7 @@
 //
 
 #import "WKHomeTopView.h"
-
+#import "BobiEasyHeader.h"
 @interface WKHomeTopView ()
 @property (nonatomic, strong) UIButton *btnPerson;
 @property (nonatomic, strong) UIImageView *imageTitle;

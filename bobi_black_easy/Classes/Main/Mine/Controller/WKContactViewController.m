@@ -7,7 +7,7 @@
 
 #import "WKContactViewController.h"
 #import "WKContactView.h"
-
+#import "BobiEasyHeader.h"
 @interface WKContactViewController ()
 @property (nonatomic, strong) WKContactView *contactView;
 

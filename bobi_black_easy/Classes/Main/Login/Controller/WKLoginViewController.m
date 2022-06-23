@@ -8,7 +8,7 @@
 #import "WKLoginViewController.h"
 #import "WKSignInViewController.h"
 #import "WKSignUpViewController.h"
-
+#import "BobiEasyHeader.h"
 @interface WKLoginViewController ()
 @property (nonatomic, strong) UIImageView *imageBg;///背景颜色
 @property (nonatomic, strong) UIImageView *titleView;///标题图片

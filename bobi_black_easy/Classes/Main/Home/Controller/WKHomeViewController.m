@@ -17,7 +17,7 @@
 #import "VideoCustomView.h"
 #import "WKVoiceListController.h"
 #import "WKMessageViewController.h"
-//#import "WsyHudProgressView.h"
+#import "BobiEasyHeader.h"
 
 @interface WKHomeViewController ()<LKWSYPickerDelegate,LKWSYPickerDataSource,RecordCustDelegate,PlayeCustomDelegate>
 {

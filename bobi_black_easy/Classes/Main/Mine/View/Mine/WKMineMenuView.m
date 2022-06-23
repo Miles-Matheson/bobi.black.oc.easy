@@ -6,7 +6,7 @@
 //
 
 #import "WKMineMenuView.h"
-
+#import "BobiEasyHeader.h"
 @interface WKMineMenuView ()
 
 @end

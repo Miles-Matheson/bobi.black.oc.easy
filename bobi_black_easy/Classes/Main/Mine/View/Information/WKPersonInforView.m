@@ -7,7 +7,7 @@
 
 #import "WKPersonInforView.h"
 #import "WKInforView.h"
-
+#import "BobiEasyHeader.h"
 @interface WKPersonInforView ()
 @property (nonatomic, strong) WKInforView *userNameView;
 @property (nonatomic, strong) WKInforView *sexView;

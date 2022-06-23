@@ -6,7 +6,7 @@
 //
 
 #import "WKInforView.h"
-
+#import "BobiEasyHeader.h"
 @interface WKInforView ()
 @property (nonatomic, strong) UILabel *lblTitle;
 @property (nonatomic, strong) UILabel *lblContent;

@@ -8,7 +8,7 @@
 #import "WKDeleteAcountViewController.h"
 #import "WKDeleteView.h"
 #import "WKLoginOutView.h"
-
+#import "BobiEasyHeader.h"
 @interface WKDeleteAcountViewController ()
 @property (nonatomic, strong) WKDeleteView *deleteView;
 

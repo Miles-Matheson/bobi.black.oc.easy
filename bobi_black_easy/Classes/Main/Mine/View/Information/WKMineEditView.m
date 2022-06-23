@@ -8,7 +8,7 @@
 #import "WKMineEditView.h"
 #import "WKMineTopView.h"
 #import "WKPersonInforView.h"
-//#import "WKBottomView.h"
+#import "BobiEasyHeader.h"
 
 @interface WKMineEditView ()
 @property(nonatomic, strong) UIScrollView *scrollView;

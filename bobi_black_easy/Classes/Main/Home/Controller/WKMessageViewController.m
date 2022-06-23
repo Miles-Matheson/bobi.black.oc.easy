@@ -9,7 +9,7 @@
 #import "WsyStrokeLab.h"
 #import "WKMessageTopView.h"
 #import "UIColor+CHRegex.h"
-
+#import "BobiEasyHeader.h"
 @interface WKMessageViewController ()<UITextViewDelegate>
 @property(nonatomic,strong)UITextView   *textV;
 @property(nonatomic,strong)UIButton  *sendBtn;

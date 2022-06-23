@@ -9,7 +9,7 @@
 #import "WKSignUpView.h"
 #import "WKWebViewController.h"
 #import "WKUploadImageViewController.h"
-
+#import "BobiEasyHeader.h"
 @interface WKSignUpViewController ()
 @property (nonatomic, strong) WKSignUpView *signUpView;
 

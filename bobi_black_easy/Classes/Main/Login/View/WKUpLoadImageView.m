@@ -6,7 +6,7 @@
 //
 
 #import "WKUpLoadImageView.h"
-
+#import "BobiEasyHeader.h"
 @interface WKUpLoadImageView ()
 {
     UIImage *_image;

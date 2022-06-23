@@ -7,7 +7,7 @@
 
 #import "WKUploadImageViewController.h"
 #import "WKUpLoadImageView.h"
-
+#import "BobiEasyHeader.h"
 @interface WKUploadImageViewController ()
 @property (nonatomic, strong) WKUpLoadImageView *imageView;
 

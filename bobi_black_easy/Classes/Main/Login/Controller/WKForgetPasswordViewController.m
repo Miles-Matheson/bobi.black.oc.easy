@@ -7,7 +7,7 @@
 
 #import "WKForgetPasswordViewController.h"
 #import "WKForgetPswView.h"
-
+#import "BobiEasyHeader.h"
 @interface WKForgetPasswordViewController ()
 @property (nonatomic, strong) WKForgetPswView *ForgetPswView;
 

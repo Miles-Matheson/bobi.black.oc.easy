@@ -7,6 +7,7 @@
 
 #import "WKAboutUsView.h"
 #import "WKDelegateView.h"
+#import "BobiEasyHeader.h"
 
 @interface WKAboutUsView ()
 @property (nonatomic, strong) WKDelegateView *serviceView;

@@ -9,6 +9,7 @@
 #import "WsyStrokeLab.h"
 #import "wsyShosePicView.h"
 #import "WsyShoseProx.h"
+#import "BobiEasyHeader.h"
 @interface WKReportViewController ()<wsyShoseProtocol,UITextViewDelegate>
 @property(nonatomic,strong)UIView   *btnView;
 

@@ -5,11 +5,8 @@
 //  Created by 王树银 on 2022/4/14.
 //
 
-
-
-
-
 #import "WsyBackImageView.h"
+#import "BobiEasyHeader.h"
 
 @implementation wsySbuImgView
 

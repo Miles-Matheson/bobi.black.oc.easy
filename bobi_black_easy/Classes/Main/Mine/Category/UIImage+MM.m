@@ -45,7 +45,7 @@
         NSURL *url = [bundle URLForResource:@"bobi_black_easy" withExtension:@"bundle"];
         if(!url) return [UIImage new];
         NSBundle *imageBundle = [NSBundle bundleWithURL:url];
-        UIImage *image = [UIImage mm_xcassetImageNamed:name inBundle:imageBundle compatibleWithTraitCollection:nil];
+        UIImage *image = [UIImage imageNamed:name inBundle:imageBundle compatibleWithTraitCollection:nil];
         return image;
     }
     return nil;

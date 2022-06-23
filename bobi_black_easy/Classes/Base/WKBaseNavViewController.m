@@ -6,6 +6,7 @@
 //
 
 #import "WKBaseNavViewController.h"
+#import "BobiEasyHeader.h"
 
 @interface WKBaseNavViewController ()
 

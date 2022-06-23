@@ -6,7 +6,7 @@
 //
 
 #import "CircleProgessView.h"
-
+#import "BobiEasyHeader.h"
 @interface CircleProgessView ()<CAAnimationDelegate>
 {
     CABasicAnimation *strokeEndAni;

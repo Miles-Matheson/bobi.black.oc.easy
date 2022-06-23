@@ -9,6 +9,8 @@
 //#import "WsyStrokeLab.h"
 #import "WsyEmptyView.h"
 #import "WKMessageTopView.h"
+#import "BobiEasyHeader.h"
+
 @interface WKNoMessageController ()
 
 @property(nonatomic,strong)UILabel   *titleLab;

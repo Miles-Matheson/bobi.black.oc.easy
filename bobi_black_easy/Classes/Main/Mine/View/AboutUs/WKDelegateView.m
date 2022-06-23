@@ -6,7 +6,7 @@
 //
 
 #import "WKDelegateView.h"
-
+#import "BobiEasyHeader.h"
 @interface WKDelegateView ()
 @property (nonatomic, strong) UILabel *lblTitle;
 @property (nonatomic, strong) UIImageView *imageRight;

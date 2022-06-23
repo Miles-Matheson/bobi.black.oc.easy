@@ -12,7 +12,7 @@
 #import "WKAboutUsViewController.h"
 #import "WKDeleteAcountViewController.h"
 #import "WKLoginOutView.h"
-
+#import "BobiEasyHeader.h"
 @interface WKMineViewController ()
 @property (nonatomic, strong) WKMineView *mineView;
 

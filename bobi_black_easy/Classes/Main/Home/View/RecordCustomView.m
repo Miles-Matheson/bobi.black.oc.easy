@@ -10,7 +10,7 @@
 #import "UIColor+CHRegex.h"
 #import "WsyStrokeLab.h"
 #import "CircleProgessView.h"
-
+#import "BobiEasyHeader.h"
 
 static NSInteger  maxTime =30;
 @interface RecordCustomView ()<AVAudioRecorderDelegate,AVAudioPlayerDelegate>

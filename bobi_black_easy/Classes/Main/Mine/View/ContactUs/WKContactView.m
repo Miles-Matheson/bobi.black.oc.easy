@@ -6,7 +6,7 @@
 //
 
 #import "WKContactView.h"
-
+#import "BobiEasyHeader.h"
 @interface WKContactView () <UITextViewDelegate>
 @property (nonatomic, strong) UIView *textBg;
 @property (nonatomic, strong) UITextView *textView;

@@ -8,6 +8,7 @@
 #import "WKMineView.h"
 #import "WKMineTopView.h"
 #import "WKMineMenuView.h"
+#import "BobiEasyHeader.h"
 
 @interface WKMineView ()
 @property (nonatomic, strong) WKMineTopView *topView;

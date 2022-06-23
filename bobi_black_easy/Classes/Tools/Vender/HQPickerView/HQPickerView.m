@@ -7,8 +7,8 @@
 //
 
 #import "HQPickerView.h"
+#import "BobiEasyHeader.h"
 
-#import <Masonry.h>
 /** 屏幕宽高 */
 #define kScreenBounds [UIScreen mainScreen].bounds
 #define KScreenWidth [[UIScreen mainScreen]bounds].size.width

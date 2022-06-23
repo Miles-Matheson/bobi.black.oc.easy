@@ -8,7 +8,7 @@
 #import "WKSignInViewController.h"
 #import "WKSignInView.h"
 #import "WKForgetPasswordViewController.h"
-
+#import "BobiEasyHeader.h"
 @interface WKSignInViewController ()
 @property (nonatomic, strong) WKSignInView *signInView;
 

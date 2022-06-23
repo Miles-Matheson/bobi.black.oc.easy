@@ -8,7 +8,7 @@
 #import "WKEditViewController.h"
 #import "WKMineEditView.h"
 #import "HQPickerView.h"
-
+#import "BobiEasyHeader.h"
 @interface WKEditViewController ()<HQPickerViewDelegate>
 {
     NSInteger _index;

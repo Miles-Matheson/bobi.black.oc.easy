@@ -6,7 +6,7 @@
 //
 
 #import "WKMineTopView.h"
-
+#import "BobiEasyHeader.h"
 @interface WKMineTopView ()
 @property (nonatomic, strong) UIButton *btnBack;
 @property (nonatomic, strong) UIButton *btnEdit;

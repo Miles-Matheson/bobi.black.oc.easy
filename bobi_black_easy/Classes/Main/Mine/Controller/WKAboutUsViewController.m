@@ -8,7 +8,7 @@
 #import "WKAboutUsViewController.h"
 #import "WKAboutUsView.h"
 #import "WKWebViewController.h"
-
+#import "BobiEasyHeader.h"
 @interface WKAboutUsViewController ()
 @property (nonatomic, strong) WKAboutUsView *aboutView;
 

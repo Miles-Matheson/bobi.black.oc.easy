@@ -7,6 +7,7 @@
 
 #import "WKWebViewController.h"
 #import <WebKit/WebKit.h>
+#import "BobiEasyHeader.h"
 
 @interface WKWebViewController ()<WKUIDelegate,WKNavigationDelegate>
 @property (nonatomic, strong) WKWebView *wkWebView;

@@ -6,6 +6,7 @@
 //
 
 #import "VideoCustomView.h"
+#import "BobiEasyHeader.h"
 
 @interface VideoCustomView ()
 

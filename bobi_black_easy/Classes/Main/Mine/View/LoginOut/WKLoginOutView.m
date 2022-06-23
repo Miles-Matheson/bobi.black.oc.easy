@@ -6,7 +6,7 @@
 //
 
 #import "WKLoginOutView.h"
-
+#import "BobiEasyHeader.h"
 @interface WKLoginOutView ()
 @property (nonatomic, strong) UIView *alertView;
 

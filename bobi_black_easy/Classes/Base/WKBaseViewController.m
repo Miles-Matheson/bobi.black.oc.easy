@@ -6,12 +6,9 @@
 //
 
 #import "WKBaseViewController.h"
-
-#import "BobiEasyHeader.h"
-
 #import "UIImage+Custom.h"
 #import "HUProgressView.h"
-
+#import "BobiEasyHeader.h"
 
 @interface WKBaseViewController ()
 @property (nonatomic, strong) UIBarButtonItem * backBarButtonItem;
@@ -228,7 +225,7 @@
     
     if (!_backBarButtonItem) {
         
-        _backBarButtonItem = [[UIBarButtonItem alloc] initWithImage: [[UIImage doraemon_xcassetImageNamed:@"back"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal] style:UIBarButtonItemStylePlain target:self action:@selector(backToPrevious)];
+        _backBarButtonItem = [[UIBarButtonItem alloc] initWithImage: [[UIImage mm_xcassetImageNamed:@"back"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal] style:UIBarButtonItemStylePlain target:self action:@selector(backToPrevious)];
     }
     return _backBarButtonItem;
 }
@@ -236,7 +233,7 @@
 - (UIButton *)popButton {
     if (!_popButton) {
         _popButton = [[UIButton alloc] init];
-        [_popButton setImage:[UIImage doraemon_xcassetImageNamed:@"knav_back"] forState:UIControlStateNormal];
+        [_popButton setImage:[UIImage mm_xcassetImageNamed:@"knav_back"] forState:UIControlStateNormal];
         [_popButton addTarget:self action:@selector(backToPrevious) forControlEvents:UIControlEventTouchUpInside];
     }
     return _popButton;

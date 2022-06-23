@@ -6,7 +6,7 @@
 //
 
 #import "WKMessageTopView.h"
-
+#import "BobiEasyHeader.h"
 @implementation WKMessageTopView
 
 - (void)createUI {

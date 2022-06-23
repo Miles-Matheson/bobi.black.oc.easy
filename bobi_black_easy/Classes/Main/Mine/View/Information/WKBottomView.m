@@ -8,6 +8,7 @@
 #import "WKBottomView.h"
 #import <AVFoundation/AVFoundation.h>
 #import "CircleProgessView.h"
+#import "BobiEasyHeader.h"
 static NSInteger  maxTimes =30;
 @interface WKBottomView ()<AVAudioRecorderDelegate,AVAudioPlayerDelegate>
 {

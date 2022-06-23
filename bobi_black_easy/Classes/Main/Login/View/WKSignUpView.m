@@ -7,7 +7,7 @@
 
 #import "WKSignUpView.h"
 #import "ZHAttributeTextView.h"
-
+#import "BobiEasyHeader.h"
 @interface WKSignUpView ()
 {
     BOOL _isAgree;//defalut no

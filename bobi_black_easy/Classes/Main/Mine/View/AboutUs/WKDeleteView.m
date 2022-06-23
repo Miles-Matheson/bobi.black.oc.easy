@@ -6,7 +6,7 @@
 //
 
 #import "WKDeleteView.h"
-
+#import "BobiEasyHeader.h"
 @interface WKDeleteView ()
 @property (nonatomic, strong) UITextField *textEmail;
 @property (nonatomic, strong) UILabel *lblNote;///note

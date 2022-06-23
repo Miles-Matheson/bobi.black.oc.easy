@@ -6,7 +6,7 @@
 //
 
 #import "WKForgetPswView.h"
-
+#import "BobiEasyHeader.h"
 @interface WKForgetPswView ()
 @property (nonatomic, strong) UITextField *textEmail;
 @property (nonatomic, strong) UILabel *lblNote;///note

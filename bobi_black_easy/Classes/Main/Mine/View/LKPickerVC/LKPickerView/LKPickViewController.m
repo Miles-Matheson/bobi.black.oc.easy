@@ -6,6 +6,7 @@
 //
 
 #import "LKPickViewController.h"
+#import "BobiEasyHeader.h"
 
 @interface LKPickViewController ()
 
