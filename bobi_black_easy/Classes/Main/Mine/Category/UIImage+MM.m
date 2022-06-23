@@ -41,11 +41,7 @@
 + (nullable UIImage *)mm_xcassetImageNamed:(NSString *)name {
     if(name &&
        ![name isEqualToString:@""]){
-        NSBundle *bundle = [NSBundle bundleForClass:NSClassFromString(@"bobi_black_easy")];
-        NSURL *url = [bundle URLForResource:@"bobi_black_easy" withExtension:@"bundle"];
-        if(!url) return [UIImage new];
-        NSBundle *imageBundle = [NSBundle bundleWithURL:url];
-        UIImage *image = [UIImage imageNamed:name inBundle:imageBundle compatibleWithTraitCollection:nil];
+        UIImage *image = [UIImage imageNamed:name inBundle:[NSBundle mainBundle] compatibleWithTraitCollection:nil];
         return image;
     }
     return nil;
