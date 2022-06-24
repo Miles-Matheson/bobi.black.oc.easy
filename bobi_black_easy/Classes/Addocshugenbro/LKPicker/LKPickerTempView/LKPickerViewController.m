@@ -6,6 +6,7 @@
 //
 
 #import "LKPickerViewController.h"
+#import "BobiEasyHeader.h"
 
 @interface LKPickerViewController ()<LKWSYPickerDelegate,LKWSYPickerDataSource,UIGestureRecognizerDelegate>
 
