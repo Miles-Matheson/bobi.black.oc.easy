@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
 
   s.name         = "bobi_black_easy"
 
-  s.version      = "0.0.27"
+  s.version      = "0.0.29"
 
   s.summary      = "iOS bobi_black_easy"
 
@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, "10.0"
 
-  s.source       = { :git => "https://github.com/Miles-Matheson/bobi.black.oc.easy.git", :tag => "0.0.27" }
+  s.source       = { :git => "https://github.com/Miles-Matheson/bobi.black.oc.easy.git", :tag => "0.0.29" }
 
   s.requires_arc = true
 
@@ -41,7 +41,9 @@ Pod::Spec.new do |s|
   	spec.dependency 'SVProgressHUD'
   	spec.dependency 'YYWebImage'
   	spec.dependency 'MBProgressHUD'
+	spec.dependency 'ReactiveObjC'
   	spec.dependency 'CBImagePicker'
+
   end
 
 
