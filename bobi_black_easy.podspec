@@ -55,7 +55,6 @@ Pod::Spec.new do |s|
 	spec.dependency 'Reachability'
 	spec.dependency 'MJRefresh'
 	spec.dependency 'MJExtension'
-	spec.dependency 'KJBannerView'
 
 	spec.dependency 'IAPHelper'
 	spec.dependency 'FMDB'
