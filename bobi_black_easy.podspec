@@ -47,8 +47,6 @@ Pod::Spec.new do |s|
 	spec.dependency 'TXIMSDK_Plus_iOS', '~> 5.6.1200'
 
 
-	spec.dependency 'MMLayout'
-
 	spec.dependency 'Toast'
 	spec.dependency 'SDWebImage'
 	spec.dependency 'YYText'
