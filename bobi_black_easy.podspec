@@ -45,6 +45,22 @@ Pod::Spec.new do |s|
   	spec.dependency 'CBImagePicker'
 	spec.dependency 'MMLayout'
 
+	spec.dependency 'Toast'
+	spec.dependency 'SDWebImage'
+	spec.dependency 'YYText'
+	spec.dependency 'YYWebImage'
+	spec.dependency 'YYCache'
+	spec.dependency 'TZImagePickerController'
+	spec.dependency 'SDCycleScrollView'
+	spec.dependency 'Reachability'
+	spec.dependency 'MJRefresh'
+	spec.dependency 'MJExtension'
+	spec.dependency 'KJBannerView'
+
+	spec.dependency 'IAPHelper'
+	spec.dependency 'FMDB'
+	spec.dependency 'AFNetworking'
+
 
   end
 
