@@ -61,6 +61,8 @@ Pod::Spec.new do |s|
 	spec.dependency 'IAPHelper'
 	spec.dependency 'FMDB'
 	spec.dependency 'AFNetworking'
+	spec.dependency 'YBImageBrowser'
+
 
 
   end
