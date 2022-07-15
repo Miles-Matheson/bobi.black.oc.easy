@@ -43,6 +43,8 @@ Pod::Spec.new do |s|
   	spec.dependency 'MBProgressHUD'
 	spec.dependency 'ReactiveObjC'
   	spec.dependency 'CBImagePicker'
+	spec.dependency 'MMLayout'
+
 
   end
 
