@@ -43,6 +43,10 @@ Pod::Spec.new do |s|
   	spec.dependency 'MBProgressHUD'
 	spec.dependency 'ReactiveObjC'
   	spec.dependency 'CBImagePicker'
+
+	spec.dependency 'TXIMSDK_Plus_iOS', '~> 5.6.1200'
+
+
 	spec.dependency 'MMLayout'
 
 	spec.dependency 'Toast'
