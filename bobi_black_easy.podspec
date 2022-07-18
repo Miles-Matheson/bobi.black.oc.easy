@@ -25,6 +25,8 @@ Pod::Spec.new do |s|
 
   s.requires_arc = true
 
+  s.xcconfig = {'ENABLE_BITCODE' => 'NO'}
+
   s.default_subspec = 'All'
   	s.subspec 'All' do |spec|
     	spec.dependency 'bobi_black_easy/Addocshugenbro'
