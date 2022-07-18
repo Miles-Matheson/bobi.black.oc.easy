@@ -40,7 +40,7 @@ Pod::Spec.new do |s|
 	spec.dependency 'Masonry'
   	spec.dependency 'JJException'
   	spec.dependency 'IQKeyboardManager'
-  	spec.dependency 'SVProgressHUD'
+  	#spec.dependency 'SVProgressHUD'
   	spec.dependency 'YYWebImage'
   	spec.dependency 'MBProgressHUD'
 	spec.dependency 'ReactiveObjC'
