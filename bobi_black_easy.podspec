@@ -54,7 +54,7 @@ Pod::Spec.new do |s|
 	spec.dependency 'YYKit'
 	#spec.dependency 'YYText'
 	#spec.dependency 'YYWebImage'
-	spec.dependency 'YYCache'
+	#spec.dependency 'YYCache'
 	spec.dependency 'TZImagePickerController'
 	spec.dependency 'SDCycleScrollView'
 	spec.dependency 'Reachability'
