@@ -51,7 +51,7 @@ Pod::Spec.new do |s|
 
 	spec.dependency 'Toast'
 	spec.dependency 'SDWebImage'
-	spec.dependency 'YYkit'
+	spec.dependency 'YYKit'
 	#spec.dependency 'YYText'
 	#spec.dependency 'YYWebImage'
 	spec.dependency 'YYCache'
